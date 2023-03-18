@@ -17,15 +17,16 @@
 
 - Python 3
 - Pip
+- virtualenv
 
 sudo apt install python3 \
 sudo apt install python3-pip \
-sudo pip3 install --upgrade pip
+sudo pip3 install --upgrade pip \
+sudo pip3 install virtualenv
 
 <h3>Criação do Ambiente Virtual</h3>
 
 -> Dentro do diretório raiz do projeto
-- sudo pip3 install virtualenv
 - virtualenv environmentName -> cria ambiente
 - source environmentName/bin/activate -> ativa ambiente
 - pip3 install pandas
