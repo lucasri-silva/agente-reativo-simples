@@ -18,6 +18,7 @@
 - Python 3
 - Pip
 - virtualenv
+- Jupyter Notebook ou Visual Studio Code com extensão Jupyter
 
 sudo apt install python3 \
 sudo apt install python3-pip \
@@ -32,5 +33,3 @@ sudo pip3 install virtualenv
 - pip3 install pandas
 - pip3 install openpyxl
 - deactivate
-
--> Se estiver utilizando Visual Studio Code instale a extensão Jupyter
